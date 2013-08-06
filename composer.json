@@ -11,8 +11,14 @@
             "email": "smirik@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "config": {
+        "bin-dir": "bin"
+    },
     "require": {
 
+    },
+    "autoload": {
+        "psr-0": { "": "src/" }
     }
 }
